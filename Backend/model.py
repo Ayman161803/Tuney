@@ -6,6 +6,8 @@ import spotipy
 import os
 
 spotify_data = pd.read_csv('./data/spotify_data.csv.zip')
+
+print("Fitting standard scaler...")
 scaler = StandardScaler()
 scaler.fit(spotify_data.select_dtypes(np.number).values)
 

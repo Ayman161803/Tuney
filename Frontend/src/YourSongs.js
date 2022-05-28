@@ -39,7 +39,7 @@ function YourSongs() {
     e.preventDefault()
     setLoading(true)
     const {data} = await axios.post(
-      'https://tuney-rest.herokuapp.com/validate',
+      'http://127.0.0.1:6001/validate',
       {
         name:SongInput,
         year:YearInput

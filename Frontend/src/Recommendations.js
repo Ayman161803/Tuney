@@ -25,7 +25,7 @@ import 'react-toastify/dist/ReactToastify.css';
     const startingData = JSON.parse(localStorage.getItem("songs"))["data"]
 
     const {data} = await axios.post(
-        'https://tuney-rest.herokuapp.com/prediction',
+        'http://127.0.0.1:6001/prediction',
         {
           song_list: startingData
         }
