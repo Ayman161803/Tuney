@@ -4,6 +4,14 @@
 [Tuney](https://your-tuney.herokuapp.com/) is a music recommendation system that takes songs that you like as input and gives recommendations using the spotipy API and content-based filtering algorithms. 
 
 -----
+## Screenshots
+
+#### Homepage
+<img width="1280" alt="image" src="https://user-images.githubusercontent.com/76606666/170836947-d69acb31-a60e-482e-bb43-f592d8f62d65.png">
+
+#### Recommendations Page
+
+<img width="1280" alt="image" src="https://user-images.githubusercontent.com/76606666/170836969-f12f9972-7b46-4479-98fd-970ca40bfbc7.png">
 
 
 ## Prerequisites
