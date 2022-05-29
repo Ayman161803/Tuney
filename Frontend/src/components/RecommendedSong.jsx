@@ -10,7 +10,7 @@ const RecommendedSong = (props) => {
 
     const getFirstArtistFromList= (str)=> {
         try{
-            return JSON.parse(str.artists.replace("\"","").replace(/'/g, '"'))[0]
+            return JSON.parse(str.artists.replace("\"","").replace(/'/g, '"'))[0]+", "+str.year
         }
         catch(e){
             console.log(str.year)

@@ -190,6 +190,9 @@ i {
 .checkContainer input:checked ~ .checkmark:after {
   display: block;
 }
+.formInput{
+  margin-top: 2vw;
+}
 
 /* Style the checkmark/indicator */
 .checkContainer .checkmark:after {
@@ -200,4 +203,20 @@ i {
   border: solid lightgreen;
   border-width: 0 3px 3px 0;
   transform: rotate(45deg);
+}
+
+@media (max-width: 600px) {  
+
+  .App{
+    width: 85%;
+  }
+
+  .fa-trash-can{
+    margin: 10px;
+  }
+
+  .your-recommendations-title .formInput{
+    margin-top: 4vw;
+  }
+  
 }

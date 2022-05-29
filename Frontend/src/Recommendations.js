@@ -84,7 +84,7 @@ size="sm"
 role="danger"
 aria-hidden="true"
 />
-No songs to in your list to give recommendations for...
+No songs in your list to give recommendations for...
 </Button>
 </div>
      </>
