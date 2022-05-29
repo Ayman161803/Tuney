@@ -42,10 +42,11 @@ const RecommendedSong = (props) => {
         <ul className='todo'>
             { tasks && tasks
                 .map((task, index) =>
+                   
                     <li key={index}>
                         <div className='checkAndTask'>
                             <label className='checkContainer'>
-                                <input type="checkbox" onClick={() => handleComplete(index)} />
+                                <input type="checkbox" checked={task.completed} onChange={() => handleComplete(index)} />
                                 <span className="checkmark"></span>
                             </label>
                             <a target="_blank" href={"https://www.youtube.com/results?search_query="+encodeURIComponent(task.name+" "+"By "+getFirstArtistFromList(task)+" "+task.year)}><span>{task.name}  <span className='artist'>{getFirstArtistFromList(task)}</span></span></a>

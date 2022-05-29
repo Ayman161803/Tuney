@@ -30,6 +30,10 @@ import 'react-toastify/dist/ReactToastify.css';
           song_list: startingData
         }
       );
+
+      for( var i =0 ;i<data.data.length;i++){
+        data.data[i]["completed"]=false
+      }
   
       updateLocalStorage(data.data);
 
