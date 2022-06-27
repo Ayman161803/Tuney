@@ -15,8 +15,8 @@ scaler.fit(spotify_data.select_dtypes(np.number).values)
 from spotipy.oauth2 import SpotifyClientCredentials
 from collections import defaultdict
 
-sp = spotipy.Spotify(auth_manager=SpotifyClientCredentials(client_id="d06bf168d6b74b9e80a6a8f9a823486e",
-                                                           client_secret="6fb8ee523d8847099ba7589250988968"))
+sp = spotipy.Spotify(auth_manager=SpotifyClientCredentials(client_id=SPOTIFY_CLIENT_ID,
+                                                           client_secret=SPOTIFY_CLIENT_SECRET))
 
 
 def find_song(name, year):
