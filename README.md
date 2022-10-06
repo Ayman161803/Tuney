@@ -78,18 +78,10 @@ cd Backend
 ```
 Step3: Install ``virtualenv`` package using pip
 
-for Windows
 
 ```
 pip install virtualenv
 ```
-
-for macOS/Linux
-
-```
-pip install venv
-```
-
 
 Step4: Create a new virtual environment on that directory
 
